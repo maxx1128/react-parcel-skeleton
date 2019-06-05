@@ -7,13 +7,14 @@
     "test": "",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev": "parcel src/index.html"
+    "start": "parcel src/index.html"
   },
   "author": "Max Antonucci",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
+    "@babel/core": "^7.0.0-0",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.4.5",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
